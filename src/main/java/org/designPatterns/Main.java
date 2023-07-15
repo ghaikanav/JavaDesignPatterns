@@ -4,6 +4,11 @@ import org.designPatterns.creational.builder.User;
 import org.designPatterns.creational.singleton.Manager;
 import org.designPatterns.creational.singleton.ManagerDCL;
 import org.designPatterns.creational.singleton.ManagerEager;
+import org.lowLevelDesign.basics.Duck;
+import org.lowLevelDesign.basics.MallardDuck;
+import org.lowLevelDesign.basics.behaviours.impl.FlyWithWings;
+import org.lowLevelDesign.basics.behaviours.impl.QuackClassic;
+import org.lowLevelDesign.basics.behaviours.impl.QuackSqueak;
 
 
 public class Main {
@@ -25,5 +30,14 @@ public class Main {
         ManagerEager managerEager2 = ManagerEager.getInstance();
 
         System.out.println(managerEager1 == managerEager2);
+
+        Duck myDuck = new MallardDuck(new FlyWithWings(), new QuackClassic());
+
+        myDuck.display();
+        myDuck.swim();
+        myDuck.performFly();
+        myDuck.performQuack();
+        myDuck.setQuackBehaviour(new QuackSqueak());
+        myDuck.performQuack();
     }
 }

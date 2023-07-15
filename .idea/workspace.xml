@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5095515e-8144-4807-af4b-9e5c7bea0c65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/designPatterns/creational/singleton/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/designPatterns/creational/singleton/ManagerDCL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/designPatterns/creational/singleton/ManagerEager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowLevelDesign/basics/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowLevelDesign/basics/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowLevelDesign/basics/behaviours/FlyingBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowLevelDesign/basics/behaviours/QuackBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowLevelDesign/basics/behaviours/impl/FlyNoWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowLevelDesign/basics/behaviours/impl/FlyWithWings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowLevelDesign/basics/behaviours/impl/QuackClassic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowLevelDesign/basics/behaviours/impl/QuackSqueak.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/designPatterns/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/designPatterns/Main.java" afterDir="false" />
     </list>
@@ -20,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -43,16 +48,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/kanghai/Desktop/JavaDesignPatterns",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.designPatterns.Main" />
