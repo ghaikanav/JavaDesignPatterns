@@ -1,6 +1,6 @@
-package org.lowLevelDesign.basics.behaviours.impl;
+package org.lowLevelDesign.strategy.behaviours.impl;
 
-import org.lowLevelDesign.basics.behaviours.QuackBehaviour;
+import org.lowLevelDesign.strategy.behaviours.QuackBehaviour;
 
 public class QuackSqueak implements QuackBehaviour {
     @Override

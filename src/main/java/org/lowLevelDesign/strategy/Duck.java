@@ -1,7 +1,7 @@
-package org.lowLevelDesign.basics;
+package org.lowLevelDesign.strategy;
 
-import org.lowLevelDesign.basics.behaviours.FlyingBehaviour;
-import org.lowLevelDesign.basics.behaviours.QuackBehaviour;
+import org.lowLevelDesign.strategy.behaviours.FlyingBehaviour;
+import org.lowLevelDesign.strategy.behaviours.QuackBehaviour;
 
 public abstract class Duck {
 

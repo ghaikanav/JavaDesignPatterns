@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5095515e-8144-4807-af4b-9e5c7bea0c65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowLevelDesign/basics/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowLevelDesign/basics/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowLevelDesign/basics/behaviours/FlyingBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowLevelDesign/basics/behaviours/QuackBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowLevelDesign/basics/behaviours/impl/FlyNoWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowLevelDesign/basics/behaviours/impl/FlyWithWings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowLevelDesign/basics/behaviours/impl/QuackClassic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lowLevelDesign/basics/behaviours/impl/QuackSqueak.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/designPatterns/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/designPatterns/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

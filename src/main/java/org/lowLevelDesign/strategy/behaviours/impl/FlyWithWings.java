@@ -1,6 +1,6 @@
-package org.lowLevelDesign.basics.behaviours.impl;
+package org.lowLevelDesign.strategy.behaviours.impl;
 
-import org.lowLevelDesign.basics.behaviours.FlyingBehaviour;
+import org.lowLevelDesign.strategy.behaviours.FlyingBehaviour;
 
 public class FlyWithWings implements FlyingBehaviour {
     @Override

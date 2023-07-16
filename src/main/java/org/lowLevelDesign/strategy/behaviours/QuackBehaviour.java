@@ -1,4 +1,4 @@
-package org.lowLevelDesign.basics.behaviours;
+package org.lowLevelDesign.strategy.behaviours;
 
 public interface QuackBehaviour {
     public void quack();

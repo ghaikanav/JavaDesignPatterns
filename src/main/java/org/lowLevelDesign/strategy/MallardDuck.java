@@ -1,9 +1,9 @@
-package org.lowLevelDesign.basics;
+package org.lowLevelDesign.strategy;
 
-import org.lowLevelDesign.basics.behaviours.FlyingBehaviour;
-import org.lowLevelDesign.basics.behaviours.QuackBehaviour;
-import org.lowLevelDesign.basics.behaviours.impl.FlyWithWings;
-import org.lowLevelDesign.basics.behaviours.impl.QuackClassic;
+import org.lowLevelDesign.strategy.behaviours.FlyingBehaviour;
+import org.lowLevelDesign.strategy.behaviours.QuackBehaviour;
+import org.lowLevelDesign.strategy.behaviours.impl.FlyWithWings;
+import org.lowLevelDesign.strategy.behaviours.impl.QuackClassic;
 
 public class MallardDuck extends Duck{
 
