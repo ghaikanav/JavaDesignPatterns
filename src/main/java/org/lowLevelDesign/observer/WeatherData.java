@@ -7,7 +7,7 @@ public class WeatherData implements Subject {
 
     private float temperature;
     private float humidity;
-    private List<Observer> observers;
+    private List<Observer> observers; // program to interface, not implementation (concrete class)
 
     public WeatherData() {
         observers = new ArrayList<>();
@@ -44,6 +44,11 @@ public class WeatherData implements Subject {
         System.out.println("======= " + observer.getClass() + " successfully removed from WeatherData =======");
     }
 
+    // Avoid sending the state (fields) directly from here, instead let the observer pull
+    // the state by exposing some getters.
+    // This way we won't have to change the update method everytime there is a change in state variables
+    // Also not all display would want all state info, eg. some display might want just the temperature,
+    // They can simply ask for it using getTemperature()
     @Override
     public void notifyObservers() {
         observers.forEach(observer -> observer.update());
